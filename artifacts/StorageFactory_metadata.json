@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StorageFactory.sol": {
+			"keccak256": "0x4339e2c447c3c7dd29e8d1c8099a1d3a73f0b64ee4c603579c8bab92235225f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e023d97ca3829880f25a1bb8dc693a7e02903d94df93f807dd5fae0d41f6989b",
+				"dweb:/ipfs/QmRnzBpnvbkTfFoyXoiBF58unZH1skpFxBcinszgsQHNi6"
+			]
+		}
+	},
+	"version": 1
+}
