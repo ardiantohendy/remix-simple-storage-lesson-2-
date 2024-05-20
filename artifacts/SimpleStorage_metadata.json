@@ -76,7 +76,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -106,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleStorage.sol": "SimpleStorage"
+			"StorageFactory.sol": "SimpleStorage"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -120,12 +120,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SimpleStorage.sol": {
-			"keccak256": "0xe46418563579f1563bdfd26d758b931fa93771f6e99c5ea91530ff8dd4102367",
+		"StorageFactory.sol": {
+			"keccak256": "0x5e589a57f8fb9006a75bc095cd557d2340fbac5ebf1503aceabfc0372123b000",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a682d9ed3213221e28e8c2b6dce22a973cf2d0446d986ec0e3eb48e7908dccea",
-				"dweb:/ipfs/QmVLiKjSsj4ucRPu41mokHggumyY53Y4tEFHX1yQVkXV3h"
+				"bzz-raw://5429d6eac879faa4875d03c1ec5ee5ab259a98ab8c45258ae483dbde0304b889",
+				"dweb:/ipfs/QmVqjUyGeCYca5jvQ2w6X9LWJ69RY6REHb9nH9HLjkx5EL"
 			]
 		}
 	},
