@@ -15,13 +15,11 @@ contract StorageFactory {
         //need
         // address
         //ABI
-        SimpleStorage mySimpleStorage = listOfSimpleStorageContracts[_simpleStorageIndex];
-        mySimpleStorage.store(_newSimpleStorageNumber);
+        listOfSimpleStorageContracts[_simpleStorageIndex].store(_newSimpleStorageNumber);
     }
 
     function sfGet(uint256 _simpleStorageIndex) public view returns(uint256) {
-        SimpleStorage mySimpleStorage = listOfSimpleStorageContracts[_simpleStorageIndex]; 
-        return mySimpleStorage.retrieve();
+        return listOfSimpleStorageContracts[_simpleStorageIndex].retrieve(); 
     } 
 
 }
