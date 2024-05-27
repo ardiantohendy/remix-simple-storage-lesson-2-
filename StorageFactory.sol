@@ -13,7 +13,7 @@ contract StorageFactory {
 
     function sfStore(uint256 _simpleStorageIndex, uint256 _newSimpleStorageNumber) public  {
         //need
-        // address
+        //address
         //ABI
         listOfSimpleStorageContracts[_simpleStorageIndex].store(_newSimpleStorageNumber);
     }
